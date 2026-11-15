@@ -185,7 +185,7 @@ export default function RegisterPage() {
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-blue-400 hover:text-blue-300"
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-blue-400 hover:text-blue-300 cursor-pointer"
               >
                 {showPassword ? "Hide" : "Show"}
               </button>
@@ -197,7 +197,7 @@ export default function RegisterPage() {
           <button
             type="submit"
             disabled={isLoading}
-            className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 font-semibold text-white transition duration-300 hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#112544] disabled:cursor-not-allowed disabled:opacity-70"
+            className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 py-3 font-semibold text-white transition duration-300 hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#112544] disabled:cursor-not-allowed disabled:opacity-70 cursor-pointer"
           >
 
             {isLoading ? (
